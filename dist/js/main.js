@@ -8,12 +8,9 @@ menuBtn.addEventListener('click', toggleMenu);
 function toggleMenu(){
   if(!showMenu){
     hamburger.classList.add('open');
-    
     showMenu = true; 
-    console.log('Click');
   }else{
     hamburger.classList.remove('open');
     showMenu = false;
   }
-
 }
